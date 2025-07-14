@@ -29,7 +29,7 @@ body {
 
 .socials-card__img {
   padding-block-start: clamp(0.4rem, 1.5vw, 0.5rem);
-  padding-block-start: clamp(0.4rem, 1.5vw, 0.5rem);
+  padding-block-end: clamp(0.4rem, 1.5vw, 0.5rem);
   width: clamp(3.5rem, 4vw, 5.5rem);
   height: clamp(3.5rem, 4vw, 5.5rem);
 }
@@ -60,7 +60,7 @@ body {
 .social-link {
   display: inline-block;
   background-color: var(--grey-700); 
-  padding: 0.85rem 1rem;
+  padding: clamp(0.7rem, 2vw, 0.85rem) clamp(0.85rem, 3vw, 1rem);
   color: var(--white);
   text-decoration: none;
   border: none;
